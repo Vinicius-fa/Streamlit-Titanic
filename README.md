@@ -32,28 +32,27 @@ No terminal, instale as bibliotecas necessárias:
 ```bash
 pip install -r requirements.txt
 ```
-###3. Treinar o Modelo
+
+### 3. Treinar o Modelo
 Antes de rodar o app, é necessário gerar o arquivo do modelo treinado:
-
-Bash
+```Bash
 python train.py
+```
 
-###4. Rodar a Interface Streamlit
+### 4. Rodar a Interface Streamlit
 Após gerar o modelo na pasta models/, execute a aplicação:
-
-Bash
+```Bash
 python -m streamlit run app.py
+```
+
 🧠 Tecnologias Utilizadas
-Python: Linguagem principal.
-
-Pandas: Manipulação e análise de dados.
-
-Scikit-Learn: Treinamento do modelo classificatório (Random Forest).
-
-Joblib: Persistência do modelo treinado.
-
-Streamlit: Criação da interface web interativa.
+- Python: Linguagem principal.
+- Pandas: Manipulação e análise de dados.
+- Scikit-Learn: Treinamento do modelo classificatório (Random Forest).
+- Joblib: Persistência do modelo treinado.
+- Streamlit: Criação da interface web interativa.
 
 📊 Dataset
-Os dados utilizados foram extraídos da competição Titanic - Machine Learning from Disaster do Kaggle.
+Os dados utilizados foram extraídos da competição oficial: [Titanic - Machine Learning from Disaster](https://www.kaggle.com/competitions/titanic/data) Kaggle.
+
 
