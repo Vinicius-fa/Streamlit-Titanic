@@ -31,12 +31,14 @@ Certifique-se de ter o Python instalado. Recomenda-se criar um ambiente virtual.
 No terminal, instale as bibliotecas necessárias:
 ```bash
 pip install -r requirements.txt
-3. Treinar o Modelo
+```
+###3. Treinar o Modelo
 Antes de rodar o app, é necessário gerar o arquivo do modelo treinado:
 
 Bash
 python train.py
-4. Rodar a Interface Streamlit
+
+###4. Rodar a Interface Streamlit
 Após gerar o modelo na pasta models/, execute a aplicação:
 
 Bash
@@ -54,3 +56,4 @@ Streamlit: Criação da interface web interativa.
 
 📊 Dataset
 Os dados utilizados foram extraídos da competição Titanic - Machine Learning from Disaster do Kaggle.
+
